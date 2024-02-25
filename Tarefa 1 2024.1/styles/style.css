@@ -1,0 +1,64 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    height: 50px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.titulo{
+    color: yellow;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.img{
+    height: 600px;
+    width: auto;
+}
+
+label{
+    color: black;
+}
+
+.labelbutton{
+    color: black;
+}
